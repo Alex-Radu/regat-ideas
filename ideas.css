@@ -10,12 +10,18 @@ ul.product_list.gridcount.grid .product-miniature {
   position: relative;
 }
 
+ul.product_list.gridcount.grid .product-miniature .thumbnail-container {
+  width: 100%;
+}
+
 ul.product_list.gridcount.grid .thumbnail-container .product-actions-main {
     background: rgba(155, 186, 176, .7);
     opacity: 1;
     padding: 0;
     text-align: inherit;
     top: 0;
+    left: 0;
+    width: 100%;
 }
 
 ul.product_list.gridcount.grid div.product-price-and-shipping {
@@ -81,4 +87,51 @@ ul.product_list.gridcount.grid div h3.product-title {
 
 ul.product_list.gridcount.grid div h3.product-title a {
   font-size: 16px;
+}
+
+/* List Styles*/
+ul.product_list.gridcount.list li.product_item div.row {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0;
+  border-bottom: 1px solid #9bbab1;
+}
+
+ul.product_list.gridcount.list li.product_item div.product-miniature {
+  padding: 0;
+}
+
+ul.product_list.gridcount.list li.product_item div.row div.product-description {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-right: 0;
+}
+
+ul.product_list.gridcount.list div.product-price-and-shipping {
+    background-color: #9bbab1;
+    color: white;
+    padding: 4px 10px;
+    display: inline-block;
+    width: min-content;
+}
+
+ul.product_list.gridcount.list li.product_item div.row div.product-description .product-detail {
+  flex: 1;
+}
+
+ul.product_list.gridcount.list li.product_item div.row div.product-description .product-actions-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+ul.product_list.gridcount.list li.product_item div.row div.product-description .product-actions-main > * {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+ul.product_list.gridcount.list li.product_item div.row div.product-description .product-actions-main .wishlist.wishlist_btn_top {
+  top: 0;
+  margin-top: 4px;
 }
