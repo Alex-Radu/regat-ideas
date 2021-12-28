@@ -1,0 +1,84 @@
+ul.product_list.gridcount.grid li.product_item.col-xs-12.col-sm-6.col-md-6.col-lg-3 {
+  padding: 5px;
+}
+
+ul.product_list.gridcount.grid .product-miniature {
+  background: rgba(255, 255, 255, .3);
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+  display: block;
+  margin: 0;
+  position: relative;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main {
+    background: rgba(155, 186, 176, .7);
+    opacity: 1;
+    padding: 0;
+    text-align: inherit;
+    top: 0;
+}
+
+ul.product_list.gridcount.grid div.product-price-and-shipping {
+    background-color: #9bbab1;
+    /* background-color: rgba(197, 90, 57, .8); */
+    bottom: 10px;
+    color: white;
+    padding: 4px 10px;
+    position: absolute;
+    right: 0;
+    width: auto;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main {
+  display: flex;
+  flex-direction: row;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main > * {
+  background-color: #9bbab1;
+  border: none;
+  border-radius: 0;
+  flex: 1;
+  transition: all 500ms ease;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main > *:hover {
+  background-color: black;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main .wishlist.wishlist_btn_top {
+  display: block;
+  padding-top: 5px;
+  position: initial;
+  text-align: center;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main .wishlist.wishlist_btn_top a {
+  display: block;
+}
+
+ul.product_list.gridcount.grid .thumbnail-container .product-actions-main .wishlist.wishlist_btn_top i {
+  font-size: 20px;
+}
+
+ul.product_list.gridcount.grid a.add_to_ws_wishlist,
+ul.product_list.gridcount.grid a.add_to_ws_wishlist i {
+  color: white;
+}
+
+ul.product_list.gridcount.grid a.add_to_ws_wishlist.wl-checked,
+ul.product_list.gridcount.grid a.add_to_ws_wishlist.wl-checked i {
+  color: red;
+}
+
+ul.product_list.gridcount.grid img.ls-is-cached.lazyloaded {
+  margin-top: 30px;
+}
+
+ul.product_list.gridcount.grid div h3.product-title {
+  margin: 0 10px
+}
+
+ul.product_list.gridcount.grid div h3.product-title a {
+  font-size: 16px;
+}
